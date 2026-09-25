@@ -1,0 +1,7 @@
+[packages]
+requests = "==2.31.0"
+django = "==4.2.0"
+flask = ">=1.0"
+
+[dev-packages]
+pytest = "==7.4.0"

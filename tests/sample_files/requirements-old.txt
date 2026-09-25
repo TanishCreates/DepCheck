@@ -1,0 +1,35 @@
+# Exact version
+requests==2.19.0
+
+# Another exact version
+django==2.2.0
+
+# Exact version
+jinja2==2.10
+
+# Version range
+flask>=1.0
+
+# Compatible release
+urllib3~=2.0
+
+# Upper bound
+numpy<2.0
+
+# Exact version with extras
+requests[security]==2.20.0
+
+# Exact version with environment marker
+django==2.2.0; python_version < "3.8"
+
+# No version
+beautifulsoup4
+
+# Requirement include
+-r another.txt
+
+# Editable install
+-e ./local-package
+
+# Malformed requirement
+this is definitely not a valid requirement
